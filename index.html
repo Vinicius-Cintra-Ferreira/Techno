@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="./vue.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Techno</title>
+  </head>
+
+  <body>
+    <div id="app" class="container">
+      <header class="header">
+        <img class="logo" src="./assets/techno.svg" alt="Techno" />
+        <div class="carrinho-menu" @click="carrinhoAtivo = true">
+          {{carrinho.length}}
+        </div>
+      </header>
+
+      <section classe="produto">
+        <div v-for="produto in produtos" :key="produto.id" class="produto">
+          <img :src="produto.img" :alt="produto.titulo" class="produto-img"/>
+          <div>
+            <span class="produto-preco">{{produto.preco}}</span>
+            <h2 class="produto-titulo">{{produto.nome}}</h2>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
