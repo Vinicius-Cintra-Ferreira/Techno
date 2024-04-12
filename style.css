@@ -20,6 +20,35 @@ body {
   padding: 0 80px;
 }
 
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background: none;
+}
+
+.logo {
+  width: 100px;
+}
+
+.carrinho-menu::after {
+  content: "";
+  display: inline-block;
+  background: url(./assets/carrinho.svg) no-repeat center center;
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.carrinho-menu {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
 /* LISTA DE PRODUTOS */
 
 .produtos {
@@ -149,6 +178,15 @@ body {
 
 .modal-btn:active {
   background: #333;
+}
+
+.modal-btn.esgotado {
+  background: #d3d3d3;
+  color: rgba(0, 0, 0,.5);
+  cursor: not-allowed;
+}
+.modal.btn.esgotado:active {
+  background: #d3d3d3;
 }
 
 /* AVALIAÇÃO */

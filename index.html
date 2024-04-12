@@ -14,12 +14,12 @@
   </head>
 
   <body>
-    <div id="app" class="container">
+    <div id="app">
 
       <header class="header">
         <img class="logo" src="./assets/techno.svg" alt="Techno" />
-        <div class="carrinho-menu" @click="carrinhoAtivo = true">
-          {{carrinho.length}}
+        <div class="carrinho-menu">
+          {{carrinhoTotal | numeroPreco}} | {{carrinho.length}}
         </div>
       </header>
 
@@ -40,10 +40,12 @@
           </div>
           <div class="modal-dados">
             <button class="modal-fechar" @click="produto = false">X</button>
-            <span class="modal-preco">{{produto.preco}}</span>
+            <span class="modal-preco">{{produto.preco | numeroPreco}}</span>
             <h2 class="modal-titulo">{{produto.nome}}</h2>
             <p class="modal-descricao">{{produto.descricao}}</p>
-            <button class="modal-btn" @click="modal-btn">Adicionar Item</button>
+            <p class="modal-estoque">Estoque: {{produto.estoque}}</p>
+            <button v-if="produto.estoque > 0" class="modal-btn" @click="addItem">Adicionar Item</button>
+            <button v-else class="modal-btn esgotado">Produto Esgotado</button>
           </div>
           <div class="avaliacoes">
             <h2 class="avaliacoes-subtitulo">Avaliações</h2>
