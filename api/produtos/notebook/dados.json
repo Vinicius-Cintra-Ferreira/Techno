@@ -7,12 +7,12 @@
   "img": "./api/produtos/notebook/notebook-foto.jpg",
   "avaliacoes": [
     {
-      "nome": "Fábio",
+      "nome": "Felipe",
       "estrelas": 5,
       "descricao": "Gostei muito do produto, atendeu todas as minhas necessidades"
     },
     {
-      "nome": "Fábio",
+      "nome": "Libni",
       "estrelas": 5,
       "descricao": "Gostei muito do produto, atendeu todas as minhas necessidades"
     }
