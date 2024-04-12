@@ -22,9 +22,9 @@ const vm = new Vue({
         .then(r => r.json())
         .then(data => {this.produto = data});
     },
-    closeModal() {
-      this.produto = false;
-    }
+    fecharModal({target, currentTarget}) {
+      if (target === currentTarget) this.produto = false;
+    },
   },
   created() {
     this.fetchProdutos();
