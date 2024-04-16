@@ -3,6 +3,11 @@ body, h1, h2, ul, li, p {
   margin: 0px;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 ul {
   list-style: none;;
 }
@@ -37,7 +42,7 @@ body {
 .carrinho-menu::after {
   content: "";
   display: inline-block;
-  background: url(./assets/carrinho.svg) no-repeat center center;
+  background: url(../assets/carrinho.svg) no-repeat center center;
   width: 25px;
   height: 25px;
   margin-left: 10px;
@@ -52,8 +57,7 @@ body {
 /* LISTA DE PRODUTOS */
 
 .produtos {
-  max-width: 900px;
-  margin: 100px auto 0 auto;
+  margin: 0 100px 0 100px;
 }
 
 .produto {
@@ -221,14 +225,98 @@ body {
   background: #ffffff;
   display: inline-block;  
   padding: 10px 20px;
-  border: 2px solid black;  
+  border: 2px solid black;
 }
 
+/* CARRINHO */
 
+.carrinho {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 2rem rgba(0, 0, 0,.1);
+  background: #ffffff;
+  border-radius: 4px;
+  margin: 0 100px 0 100px;
+}
+
+.carrinho-titulo {
+  font-size: 2rem;
+  border-bottom: 2px solid rgba(0, 0, 0,.5  );
+  margin: 15px 30px;
+}
+
+.carrinho-titulo::after {
+  content: "";
+  display: inline-block;
+  background: url(../assets/carrinho.svg) no-repeat center center;
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.carrinho-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;  
+  padding: 0 30px;
+  font: 1rem "Noto Serif";
+}
+
+.carrinho-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 50px;
+  border-bottom: 1px solid rgba(0, 0, 0,.1); 
+}
+
+.carrinho-remover {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.carrinho-preco {
+  text-align: right;
+}
+
+.carrinho-finalizar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 30px;
+  border-top: 2px solid rgba(0, 0, 0,.5);
+}
+
+.carrinho-btn {
+  background: #000;
+  cursor: pointer;
+  color: #ffffff;
+  border: none;
+  padding: 10px 25px;
+  font: 1rem "Noto Serif"; 
+  margin-top: 10px;
+}
+
+.carrinho-btn:active {
+  background: #333;
+}
+
+.carrinho-total{
+  margin-top: 10px;
+  margin-right: 50px;
+}
+
+.carrinho-vazio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 2rem;
+}
 
 /* AVALIAÇÃO */
 
-.avaliacoes {
+.avaliacoes { 
   grid-column: 2;
 }
 

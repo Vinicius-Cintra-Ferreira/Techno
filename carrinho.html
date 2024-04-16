@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="./vue.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700" rel="stylesheet"/>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Techno</title>
+  </head>
+
+  <body>
+    <div id="app">
+
+      <header class="header">
+        <img class="logo" src="./assets/techno.svg" alt="Techno" />
+        <a href="./index.html" class="">Voltar para a loja</a>
+        </a>
+      </header>
+
+      <section class="carrinho">
+        <h2 class="carrinho-titulo">Carrinho</h2>
+        <div v-if="carrinho.length > 0">
+          <ul class="carrinho-lista">
+            <li class="carrinho-item" v-for="(item, index) in carrinho">
+              <p>{{item.nome}}</p>
+              <p class="carrinho-preco">{{item.preco | numeroPreco}}</p>
+              <button class="carrinho-remover" @click="removerItem(index)">X</button> 
+            </li>
+          </ul>
+          <div class="carrinho-finalizar">
+            <button class="carrinho-btn"> Finalizar Compra </button>
+            <p class="carrinho-total">{{carrinhoTotal | numeroPreco}}</p>
+          </div>
+        </div>  
+        <p class="carrinho-vazio" v-else>O carrinho está vazio.</p>
+      </section>
+    </div>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
