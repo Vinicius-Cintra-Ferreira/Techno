@@ -1,23 +1,31 @@
-## Clonando o repositório para a sua máquina
+<h1 align="center"> Techno </h1>
+<p align="center">Este projeto foi desenvolvido com objetivos acadêmicos, a ideia original foi extraída do curso <a href="https://www.origamid.com/curso/vue-js-completo">"Vue.js 3 Completo"</a> oferecido pela plataforma de cursos Origamid.</p>
+
+---
+
+<h3 align="center">Tecnologias Usadas</h3>
+<p align="center">
+  <a href="https://br.vuejs.org/">
+    <img src="https://skillicons.dev/icons?i=vue" />
+  </a>
+</p>
+
+---
+
+<h3 align="center">Clonando o repositório para a sua máquina</h3>
 
 ```bash
 git clone https://github.com/Vinicius-Cintra-Ferreira/Techno.git
 ```
+<h4>Instalando a extenção do Live server</h4>
+<ol>
+  <li>Dentro do Visual Studio Code acesse a aba "Extensions"</li>
+  <li>Pesquise por Live Server e realize a instalação</li>
+</ol>
 
-## Instalando a extenção do Live server
-
-- Dentro do Visual Studio Code acesse a aba "Extensions"
-
-- Pesquise por Live Server e realize a instalação ![image](https://github.com/Vinicius-Cintra-Ferreira/Techno/assets/70180887/99912b56-8134-40fd-8589-f2a7951b685d)
-
-## Rodando o repositório localmente
-
-- Selecione o arquivo "index.html" na raiz do diretório
-
-- Clique com o "botão direito" e selecione a opção "Open with Live Server"
-
-Após isso a aplicação estará rodando na url: http://localhost:5501
-
-## Sobre
-
-Esse projeto foi desenvolvido por Vinicius Cintra Ferreira em Vue.js
+<h4>Rodando o repositório localmente</h4>
+<ol>
+  <li>Selecione o arquivo "index.html" na raiz do diretório</li>
+  <li>Clique com o "botão direito" e selecione a opção "Open with Live Server"</li>
+</ol>
+<p>Após isso a aplicação estará rodando na url: http://localhost:5501</p>
