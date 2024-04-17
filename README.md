@@ -3,15 +3,6 @@
 
 ---
 
-<h3 align="center">Tecnologias Usadas</h3>
-<p align="center">
-  <a href="https://br.vuejs.org/">
-    <img src="https://skillicons.dev/icons?i=vue" />
-  </a>
-</p>
-
----
-
 <h3 align="center">Clonando o repositório para a sua máquina</h3>
 
 ```bash
@@ -29,3 +20,16 @@ git clone https://github.com/Vinicius-Cintra-Ferreira/Techno.git
   <li>Clique com o "botão direito" e selecione a opção "Open with Live Server"</li>
 </ol>
 <p>Após isso a aplicação estará rodando na url: <a href="http://localhost:5501">http://localhost:5501</a></p>
+
+---
+
+<p>Acesse também online: <a href="https://vinicius-cintra-ferreira.github.io/Techno/index.html#">Techno</a></p>
+
+---
+
+<h3 align="center">Tecnologias Usadas</h3>
+<p align="center">
+  <a href="https://br.vuejs.org/">
+    <img src="https://skillicons.dev/icons?i=vue" />
+  </a>
+</p>
