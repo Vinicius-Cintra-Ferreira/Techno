@@ -33,3 +33,22 @@ git clone https://github.com/Vinicius-Cintra-Ferreira/Techno.git
     <img src="https://skillicons.dev/icons?i=vue" />
   </a>
 </p>
+
+<h3 align="center">Imagens</h3>
+  <h4>Home</h4>
+  
+  ![image](https://github.com/Vinicius-Cintra-Ferreira/Techno/assets/70180887/7f6364e3-5755-4970-8123-14955bc566b2)
+
+  <h4>Modal de Produto</h4>
+  
+  ![image](https://github.com/Vinicius-Cintra-Ferreira/Techno/assets/70180887/9bd0e164-2d51-4b76-8f8d-47ab8b12d39b)
+
+  <h4>Carrinho de Compras</h4>
+  
+  ![image](https://github.com/Vinicius-Cintra-Ferreira/Techno/assets/70180887/c0021d18-483b-4403-9559-d35dc501303b)
+  ![image](https://github.com/Vinicius-Cintra-Ferreira/Techno/assets/70180887/7ce975f3-c23f-48b4-a7be-c4b5e3cf304e)
+  
+
+
+  
+
