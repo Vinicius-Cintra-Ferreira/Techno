@@ -1,5 +1,5 @@
 <h1 align="center"> Techno </h1>
-<p align="center">Este projeto foi desenvolvido com objetivos acadêmicos, a ideia original foi extraída do curso <a href="https://www.origamid.com/curso/vue-js-completo">"Vue.js 3 Completo"</a> oferecido pela plataforma de cursos Origamid.</p>
+<p align="center">Este projeto foi desenvolvido com objetivos acadêmicos, a ideia original foi extraída do curso <a href="https://www.origamid.com/curso/vue-js-completo">"Vue.js 2 Completo"</a> oferecido pela plataforma de cursos Origamid.</p>
 
 ---
 
