@@ -23,7 +23,7 @@ git clone https://github.com/Vinicius-Cintra-Ferreira/Techno.git
 
 ---
 
-<p>Acesse também online: <a href="https://vinicius-cintra-ferreira.github.io/Techno/index.html#">Techno</a></p>
+<p>Acesse também online: <a href="https://vinicius-cintra-ferreira.github.io/techno/">Techno</a></p>
 
 ---
 
